@@ -1,0 +1,32 @@
+package com.app;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.model.OfficeDesk;
+
+public class DataSet {
+	ArrayList<OfficeDesk> list = new ArrayList<OfficeDesk>();
+	public static ArrayList<OfficeDesk> datatest() {
+		OfficeDesk ofd = new OfficeDesk(101, "booked", 1, "30/05/2021", "31/05/2021");
+		OfficeDesk ofd2 = new OfficeDesk(102, "booked", 2, "30/05/2021", "31/05/2021");
+		OfficeDesk ofd3 = new OfficeDesk(103, "booked", 3, "30/05/2021", "31/05/2021");
+		OfficeDesk ofd4 = new OfficeDesk(104, "booked", 4, "30/05/2021", "30/05/2021");
+		OfficeDesk ofd5 = new OfficeDesk(105, "booked", 5, "30/05/2021 09:00", "30/05/2021 10:00");
+
+		
+		System.out.println(list.size());
+
+		list.add(ofd);
+		list.add(ofd2);
+		list.add(ofd3);
+		list.add(ofd4);
+		list.add(ofd5);
+		System.out.println(list.size());
+
+		return list;
+	}
+	public static int size(list) {
+		
+	}
+}

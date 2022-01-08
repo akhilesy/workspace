@@ -1,0 +1,23 @@
+package com.services;
+
+import com.app.DataSet;
+import com.model.User;
+
+public class UserOperation implements UserOperationInterface {
+
+	/*
+	 * test data
+	 */
+	DataSet dst=new DataSet();
+
+	@Override
+	public User userDetails(int user) {
+		// TODO Auto-generated method stub
+		if (user == userobj.getUserid()) {
+			return userobj;
+		}
+
+		return userobj;
+	}
+
+}

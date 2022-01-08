@@ -1,0 +1,50 @@
+package itemTests;
+
+import static org.junit.Assert.fail;
+
+import org.junit.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
+
+import itemSrc.Manager;
+
+
+public class ManagerTest {
+	
+/**
+ * The Manager class is fully implemented 
+ * You're to write JUnit tests for it. 
+ * This is likely to be possible after implementing 
+ * the other classes
+ */
+	Manager manger=new Manager();
+	
+	@Test
+	public void testManager() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testInitialiseData() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testInitialiseWorkers() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testReadCustFile() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	@ParameterizedTest
+    @CsvFileSource(resources = "Parcels.csv")
+	public void testReadParcelFile(String input) {
+		
+	  
+	}
+
+}

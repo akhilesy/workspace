@@ -1,0 +1,21 @@
+package com.test.app;
+
+import java.util.TreeMap;
+
+public class Collect {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		 TreeMap<String, IoBean> hshmap=new TreeMap<String, IoBean>();
+		 System.out.println(hshmap.size());
+		 IoBean ibn=new IoBean(101, "abc");
+		 IoBean ibn2=new IoBean(102, "akhil");
+		 hshmap.put("first",ibn );
+		 hshmap.put("first",ibn2 );
+		 System.out.println(hshmap);
+		
+
+	}
+
+}

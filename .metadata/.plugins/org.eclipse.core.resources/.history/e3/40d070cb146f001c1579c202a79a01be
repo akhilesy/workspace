@@ -1,0 +1,67 @@
+package itemTests;
+
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import java.io.File;
+import java.util.Scanner;
+
+import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
+
+import itemSrc.Manager;
+import itemSrc.ParcelMap;
+import itemSrc.QueueOfCusts;
+
+
+public class ManagerTest {
+	
+/**
+ * The Manager class is fully implemented 
+ * You're to write JUnit tests for it. 
+ * This is likely to be possible after implementing 
+ * the other classes
+ */
+	private Manager manager;
+	  
+	@BeforeEach
+	public void setup() {
+		manager=new Manager();
+	}
+	
+	
+	@Test
+	public void testManager() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testInitialiseData() {
+		fail("Not yet implemented");
+		
+		
+	}
+
+	@Test
+	public void testInitialiseWorkers() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testReadCustFile() {
+		manage
+	}
+
+	@Test
+   public void testReadParcelFile() {
+		fail("Not yet implemented");
+    	}
+    	
+	  
+	
+
+}

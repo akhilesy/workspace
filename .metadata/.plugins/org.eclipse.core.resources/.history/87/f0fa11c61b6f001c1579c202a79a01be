@@ -1,0 +1,74 @@
+package itemTests;
+
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+import org.junit.Test;
+
+import itemSrc.CustInQueue;
+import itemSrc.Manager;
+import itemSrc.QueueOfCusts;
+
+
+public class ManagerTest {
+	
+/**
+ * The Manager class is fully implemented 
+ * You're to write JUnit tests for it. 
+ * This is likely to be possible after implementing 
+ * the other classes
+ */
+	private Manager manager=new Manager();;
+	  
+	/*
+	 * @BeforeEach public void setup() { manager=new Manager(); }
+	 */
+	
+	
+	@Test
+	public void testManager() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testInitialiseData() {
+		CustInQueue que=new CustInQueue("Andrew Robertson","X919");
+		que.setInQueue(true);
+		QueueOfCusts qOfCusts=new QueueOfCusts();
+		qOfCusts.addDetails(que);
+		assertSame(qOfCusts.get(0), que);
+		assertTrue(que.isInQueue());
+		
+	}
+
+	@Test
+	public void testInitialiseWorkers() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testReadCustFile() throws FileNotFoundException {
+		File file=new File("Custs.csv");
+		Scanner sc=new Scanner(file);
+		String data=sc.nextLine();
+		assertEquals("Andrew Robertson,X919", data);
+	}
+
+	@Test
+   public void testReadParcelFile() throws FileNotFoundException {
+		File file=new File("Parcels.csv");
+		Scanner sc=new Scanner(file);
+		String data=sc.nextLine();
+		assertEquals("X009,9,1,9,9,7", data);
+    	}
+    	
+	  
+	
+
+}
