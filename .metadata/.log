@@ -12800,3 +12800,48 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-08 21:46:59.098
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-08 21:46:59.101
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@198f6502[org.springframework.tooling.boot.ls:1.27.0.202108151936(id=742)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-08 21:46:59.149
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-08 21:46:59.390
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-08 21:47:07.628
+!MESSAGE Boot LS startup time from start to initialized: 8303ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-08 21:47:12.617
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.hkCXhAmNisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-08 21:47:12.630
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-08 21:47:12.633
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-08 21:47:12.634
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-08 21:47:12.635
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.hkCXhAmN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-08 21:47:12.637
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-08 21:47:12.642
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-08 21:47:12.643
+!MESSAGE buffering callback sts4.classpath.hkCXhAmN ACME false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-08 21:47:12.644
+!MESSAGE executing callback sts4.classpath.hkCXhAmN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-08 21:47:14.365
+!MESSAGE executing callback sts4.classpath.hkCXhAmN SUCCESS [done]
